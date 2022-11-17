@@ -1,0 +1,4 @@
+@import './base.css';
+.sendbird-app__wrap{
+  height:  calc(100vh - 54px);
+}
