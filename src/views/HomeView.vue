@@ -5,7 +5,7 @@ import {ref} from 'vue';
 import ChatReactComponent from '../react_app/Chat.jsx';
 
 const config = {
-  APP_ID: "YOU_SENDBIRD_APP_ID", 
+  APP_ID: "2D7B4CDB-932F-4082-9B09-A1153792DC8D",
   USER_ID: "Bob_1",
   NICKNAME: "Bob"
 }
