@@ -7,6 +7,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "@sendbird/uikit-react": "^3.2.6",
     "@vitejs/plugin-react": "^2.2.0",
     "@vitejs/plugin-vue-jsx": "^2.1.1",
