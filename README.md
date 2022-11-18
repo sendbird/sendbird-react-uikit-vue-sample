@@ -6,7 +6,7 @@ A sample project that demonstrates how to get Sendbirds React UIKit running in a
 
 See this blog post for more information. 
 
-See the application running here.
+See the application running [here](https://stackblitz.com/edit/sendbird-uikit-vue).
 
 ## Project Setup
 
