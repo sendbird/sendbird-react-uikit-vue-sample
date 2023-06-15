@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sendbird-react-uikit-vue-sample
+description: A sample project that demonstrates how to get Sendbirds React UIKit running in a Vue 3 application.
+  annotations:
+    github.com/project-slug: sendbird/sendbird-react-uikit-vue-sample
+spec:
+  type: library
+  lifecycle: production
+  owner: dep-developer-experience
+  system: sendbird-uikit
