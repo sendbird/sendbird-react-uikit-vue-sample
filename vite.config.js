@@ -1,14 +1,19 @@
 import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
-import veauryVitePlugins from 'veaury/vite/index.js'
+import vue from '@vitejs/plugin-vue'
+import vueJsx from '@vitejs/plugin-vue-jsx'
+import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    veauryVitePlugins({
-      type: 'vue',
-    })
+    vue(),
+    {
+      ...vueJsx({ exclude: [/[/\\]react_app[\\/$]+/] }),
+      enforce: 'pre'
+    },
+    react()
   ],
   resolve: {
     alias: {
